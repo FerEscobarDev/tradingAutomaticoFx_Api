@@ -1,0 +1,43 @@
+# .NET Core
+obj/
+bin/
+*.dll
+*.exe
+*.pdb
+*.user
+
+# Visual Studio Code
+.vscode/
+
+# Editor/IDE specific
+*.suo
+*.ntvs*
+*.njsproj.user
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# NuGet
+*.nuget.props
+*.paket/paket.exe
+paket.lock
+packages/
+*.nupkg
+!.nuget/
+
+# Other
+_ReSharper*/
+*.Cache
+ClientApp/node_modules/
+dist/
+bower_components/
